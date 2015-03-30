@@ -71,3 +71,7 @@ NOTES
 **1:** this does not help with side-effects of programs -- e.g. running the programs like this does not seem to write .CSV files, even if the program is properly written. I'm workin' on it. Feel free to play around!
 
 **2:** replacing ``` manage_files.py ``` with ``` just_copy_files.py ``` will copy each of the files in the ``` necessary_files ``` folder into each of the students' sub-directories, but will NOT run any of the programs.
+
+**3:** Ctrl + C won't quit this, because multiple processes are running. If you want to stop in the middle for any reason you have to close your command prompt window. It'll stop right when you...do that, but other than it not going through everyone, it won't break anything. If you run the manage_files program again in the same folder it will begin rewriting (like if you forgot to copy a file into ``` necessary_files ``` or something), so that should all be good.
+
+You know where to find me
