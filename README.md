@@ -49,21 +49,21 @@ You normally download all the assignments from CTools in a .zip file, I assume, 
 9. Now your file structure should look like this:
 
 		SomeFolderOnYourComputer
-		PS9
-			manage_files.py
-			Test_Results
-				student1results.txt
-				student2results.txt
-				etc.txt
-			necessary_files
-				test106.py
-				anyotherfileeveryonewillneed.txt
-			Student1 (theiruniqname)
-				Submission Attachments
-			Student2 (theiruniqnameyay)
-				Submission Attachments
-			Etc (These are all sub-directories)
-				Submission Attachments
+			PS9
+				manage_files.py
+				Test_Results
+					student1results.txt
+					student2results.txt
+					etc.txt
+				necessary_files
+					test106.py
+					anyotherfileeveryonewillneed.txt
+				Student1 (theiruniqname)
+					Submission Attachments
+				Student2 (theiruniqnameyay)
+					Submission Attachments
+				Etc (These are all sub-directories)
+					Submission Attachments
 
 NOTES
 ----
