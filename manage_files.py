@@ -8,24 +8,15 @@ if "necessary_files" not in [f for f in os.walk(".")][0][1]:
 elif "test106.py" not in [f for f in os.walk("necessary_files")][0][2]:
 	print "You probably need test106.py in the necessary files folder and it ain't there yet"
 
-#print os.getcwd()
-
 # Need to run this script from inside the bulk file, e.g. PS9
 # Need to save all files necessary for running people's programs
 filenames =[x for x in os.listdir("necessary_files")]
-#filenames = ["test106.py"] # this will always be necessary
-
-# pass other necessary files in as command line args
-# if len(sys.argv) > 1:
-# 	for fl in sys.argv[1:]:
-# 		filenames.append(fl)
 
 dirs = [f for f in os.walk(".")][0][1] # all sub-directories
 
 # copy all necessary files into each person's folder
 for d in dirs: 
 	dr = d.replace(" ","\ ").replace("(","\(").replace(")","\)").replace(",","\,") # handled all chars
-	#print [f for f in os.walk("necessary_files")]
 	try:
 		for fp in [f for f in os.walk("necessary_files")][0][2]:
 			os.system("cp necessary_files/{} {}/Submission\ attachment\(s\)/".format(fp,dr)) # assuming ctools format
