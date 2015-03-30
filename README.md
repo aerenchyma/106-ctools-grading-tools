@@ -18,6 +18,8 @@ You normally download all the assignments from CTools in a .zip file, I assume, 
 
 5. So, for example for PS9, your file structure should look like this; you can check with ``` ls ``` and/or Finder or My Computer:
 
+** okay I don't know why this formatting isn't working but I'll fix it when I get home.
+
 	SomeFolderOnYourComputer
 			PS9
 				manage_files.py
