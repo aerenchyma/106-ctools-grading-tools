@@ -17,18 +17,19 @@ You normally download all the assignments from CTools in a .zip file, I assume, 
 4. Also copy the ``` manage_files.py ``` file into the assignment folder, at the root level.
 
 5. So, for example for PS9, your file structure should look like this; you can check with ``` ls ``` and/or Finder or My Computer:
+
 	SomeFolderOnYourComputer
-		PS9
-			manage_files.py
-			necessary_files
-				test106.py
-				anyotherfileeveryonewillneed.txt
-			Student1 (theiruniqname)
-				Submission Attachments
-			Student2 (theiruniqnameyay)
-				Submission Attachments
-			Etc (These are all sub-directories)
-				Submission Attachments
+			PS9
+				manage_files.py
+				necessary_files
+					test106.py
+					anyotherfileeveryonewillneed.txt
+				Student1 (theiruniqname)
+					Submission Attachments
+				Student2 (theiruniqnameyay)
+					Submission Attachments
+				Etc (These are all sub-directories)
+					Submission Attachments
 
 
 6. ``` cd <assignment folder whatever it is> ```
