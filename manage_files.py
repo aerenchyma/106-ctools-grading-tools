@@ -29,7 +29,7 @@ for d in dirs: # each has the right files in submission attachments...
 	dr = d.replace(" ","\ ").replace("(","\(").replace(")","\)").replace(",","\,") # handled all chars for bash encoding
 	# now run program
 	try:
-		curr_dir = str(os.getcwd()).lower()
+		curr_dir = str(os.getcwd()).split("/")[-1].lower()
 		# if sys.argv[1] in [f for f in os.listdir("{}/Submission attachment(s)/".format(d))]: # pass in filename expected as command line argument
 		if "{}.py".format(curr_dir) in [f.lower() for f in os.listdir("{}/Submission attachment(s)/".format(d))]: # if they have a file ps[whatever#folder] -- assume acting in eg. PS9 folder
 			print "Running {} problem set...".format(dr) # for clarity
