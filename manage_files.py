@@ -35,8 +35,8 @@ for d in dirs: # each has the right files in submission attachments...
 			print "Running {} problem set...".format(dr) # for clarity
 			# note: python or bash errors that occur will appear in console.
 			# to see these later, could pipe output of this master program to a file.
-			os.system("python {}/Submission\ attachment\(s\)/ps9.py > Test_Results/{}.txt".format(dr,dr)) # save output in Test_Results in a text file of the person's name
+			os.system("python {}/Submission\ attachment\(s\)/'{}.py'.format(curr_dir) > Test_Results/{}.txt".format(dr,dr)) # save output in Test_Results in a text file of the person's name
 		else:
-			print "Sorry, you'll need to rename {} pset to ps9.py...".format(dr)
+			print "Sorry, you'll need to rename {} pset to {}.py...".format(dr, curr_dir)
 	except:
 		"Error. Continuing."
