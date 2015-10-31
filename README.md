@@ -32,5 +32,11 @@ So,
 
 And then look in the ``` Test_Results ``` folder (submissions > 106-ctools-grading-tools (this folder) > Test_Results) for the files saved as each student's name in order to do the majority of the grading, referring to the files directly downloaded from Canvas if need be.
 
+### also
+
+jczetta at gmail if you need me / have questions
+
+feel free to make PRs etc
+
 
 
