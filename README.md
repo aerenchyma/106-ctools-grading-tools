@@ -30,7 +30,7 @@ So,
 
 ``` python canvas_manage_files.py ``` -- run that Python script, which runs all of the Python submissions in the folder and saves the output in the ``` Test_Results ``` folder.
 
-And then look in the ``` Test_Results ``` folder for the files saved as each student's name in order to do the majority of the grading, referring to the files directly downloaded from Canvas if need be.
+And then look in the ``` Test_Results ``` folder (submissions > 106-ctools-grading-tools (this folder) > Test_Results) for the files saved as each student's name in order to do the majority of the grading, referring to the files directly downloaded from Canvas if need be.
 
 
 
